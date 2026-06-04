@@ -1,7 +1,7 @@
 background_image:
   type: string
   default: default
-  description: Enter image url
+  description: Enter `default`, `fish`, or an image URL.
 
 tile_background: true
 

@@ -18,13 +18,15 @@
   );
 
   @if $no-background-image == "false" {
-    @if $background-image != "default" {
-      // Thanks @tmoko!
-      background-image: url($background-image);
-    } @else {
+    @if $background-image == "default" {
       // Default background pattern from Toptal Subtle Patterns
       // ♡ https://www.toptal.com/designers/subtlepatterns/japanese-asanoha/
       background-image: var(--default-background-dynamic);
+    } @else if $background-image == "fish" {
+      background-image: var(--fish-background-dynamic);
+    } @else {
+      // Thanks @tmoko!
+      background-image: url($background-image);
     }
 
     @if $tile-background == "true" {

@@ -3,6 +3,10 @@ $default-background-dynamic: dark-light-choose(
   $default-background-light,
   $default-background-dark
 );
+$fish-background-dynamic: dark-light-choose(
+  $fish-background-light,
+  $fish-background-dark
+);
 
 :root {
   --gf-primary-very-low-or-primary-low: #{dark-light-choose(
@@ -15,4 +19,5 @@ $default-background-dynamic: dark-light-choose(
       $primary-low-mid
     )};
   --default-background-dynamic: url(#{$default-background-dynamic});
+  --fish-background-dynamic: url(#{$fish-background-dynamic});
 }

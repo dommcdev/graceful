@@ -4,7 +4,9 @@
   "license_url": "https://github.com/discourse/graceful/blob/main/LICENSE",
   "assets": {
     "default-background-light": "assets/asanoha-400px.png",
-    "default-background-dark": "assets/asanoha-400px-dark.png"
+    "default-background-dark": "assets/asanoha-400px-dark.png",
+    "fish-background-light": "assets/fish-400px.png",
+    "fish-background-dark": "assets/fish-400px-dark.png"
   },
   "color_schemes": {
     "Graceful": {
